@@ -8,7 +8,7 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 
 2. Major League Baseball Player Salary Prediction
 
-Personal project in which I explore player stats with the goal of building models to predict player worth (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position players (hitting stats), in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I built models to predict player salary for MLB position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques.
+Personal project in which I explore player stats with the goal of building models to predict player worth (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position players (hitting stats), in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques.
 
 ![salary vs age](https://user-images.githubusercontent.com/81653555/183914933-a449e935-93e6-4801-a2ec-2cc8792291e0.JPG)
 ![Salary](https://user-images.githubusercontent.com/81653555/183914974-ee6d54e1-036c-4259-8dd4-f381e4abbb7e.JPG)
