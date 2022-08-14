@@ -7,7 +7,9 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 
 
 2. Major League Baseball Player Salary Prediction
-3. 
+
+Personal project in which I explore player stats with the goal of building models to predict player worth (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position players (hitting stats), in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I built models to predict player salary for MLB position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques.
+
 ![salary vs age](https://user-images.githubusercontent.com/81653555/183914933-a449e935-93e6-4801-a2ec-2cc8792291e0.JPG)
 ![Salary](https://user-images.githubusercontent.com/81653555/183914974-ee6d54e1-036c-4259-8dd4-f381e4abbb7e.JPG)
 
@@ -16,7 +18,7 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 
 
 
-Technologies used: Python (Matplotlib, Pandas, Scikit-Learn, Seaborn)
+Technologies used: Python (Matplotlib, Pandas, Scikit-Learn, Seaborn, TensorFlow)
 
 3. Spotify Hip Hop/Rap Song Popularity Classifier
 
@@ -43,7 +45,7 @@ The Eight Best Horses (with the Highest Winning Percentages) after the Simulatio
 
 Ongoing project for my role within the student outdoors organization as data analyst. Perform data entry, cleaning, and visualization to create yearly trip reports and  analysis for Santa Clara University's student run outdoors organization, Into the Wild. For this role, using data that I collected and entered, I create visualizations and utilize other techniques to explore our organization's trip sales and factors preventing trips filling for both day hikes and overnight camping trips during the past school year. In addition to crafting visualizations and programming to answer questions regarding student engagement with the organization, I also improved the organizations data collection by creating new google forms so that we can efficiently collect trip and participant going forward. The questions I explore in this position include but are not limited to the following:
 
-1. What are the most important factors that affect trip sign ups? (For both day hikes and overnights)
+1. What are the most important factors that affect trip sign ups for both day hikes and overnights?
 2. Are Friday overnights more popular/likely to fill than Saturday overnights?
 3. How are trip sales affected by the quarter (Fall, Winter, Spring)?
 4. What locations are in demand (trips we should run again) and which are not (trips we won't run again)?
