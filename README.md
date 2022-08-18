@@ -2,16 +2,36 @@
 
 
 About Me:
-My name is Michael Nocerino, and I am a rising senior at Santa Clara University in Northern California majoring in Math (Data Science Emphasis) and minoring in Computer Science. I have an analytical background with strong exposure to probability and statistics, discrete math, programming in Python and C++, data mining, visualization, and supervised machine learning from the program at SCU thus far.
+My name is Michael Nocerino, and I am a rising senior at Santa Clara University (SCU) in Northern California majoring in Math (Data Science Emphasis) and minoring in Computer Science. I have an analytical background with strong exposure to probability and statistics, discrete math, programming in Python and C++, data mining, cleaning, visualization, and supervised machine learning from the program at SCU thus far.
 
-The first two data science courses I took my junior year provided a glimpse into the powerful applications of machine learning algorithms and left me feeling extremely motivated to explore the subject in more depth. From self-learning in my free time during this spring and summer, I have added additional skills such as SQL, Tableau, and the fundamentals of deep learning, developing these skills through a variety of data science projects which required me to learn on the fly as I completed the various tasks step by step. 
+The first two data science courses I took my junior year provided a glimpse into the powerful applications of machine learning algorithms and left me feeling extremely motivated to explore the subject in greater depth. From self-learning in my free time during this spring and summer, I have added additional skills such as SQL, Tableau, and the fundamentals of deep learning, developing these skills through a variety of data science projects which required me to learn on the fly as I completed necessary tasks step by step. 
 
-This summer I primarily worked on a research project through SCU in which I explored wildfire trends (from 2001-2019) in the state of California and attempted to analyze trends as well as predict high risk areas experimenting with multi-class classification (KNN, SVM, Naive Bayes, Decision Tree, Random Forest, Gradient Boosting, and Neural Networks) and regression (Linear, Ridge, Lasso, Neural Networks, and Decision Tree) machine learning techniques. I also worked on a variety of personal projects involving topics such as Major League Baseball salary prediction, board game strategy, and analyzing student engagement data within the hiking club I'm involved in at Santa Clara. Having to learn new Python libraries, programming languages, technologies, and techniques on my own along the way has been rewarding, and I have thoroughly enjoyed the process and growing my knowledge outside of the classroom through online content such as LinkedIn Learning and YouTube series.
+This summer I primarily worked on a research project through SCU in which I explored wildfire trends (from 2001-2019) in the state of California and attempted to analyze trends as well as predict high risk areas experimenting with machine learning techniques. I also worked on a variety of personal projects involving topics such as Major League Baseball salary prediction, board game strategy, and analyzing student engagement data within the hiking club I'm involved in at Santa Clara. I am not intinmidated to learn new Python libraries, programming languages, technologies, and techniques on my own along the way and have found self-learning and completing projects to be very rewarding. I have thoroughly enjoyed the process and growing my knowledge outside of the classroom through online content such as LinkedIn Learning and YouTube series.
 
-My personal interests include nature and the outdoors, sports (MLB, NBA, and skateboarding) and environmental issues and it's been extremely fascinating to explore questions related to these interests through a data lens. Since this past spring, I have been hooked on using Python, visualization tools, and machine learning to explore questions that fascinate me. My goal is to apply my curiosity and passion for analytics to help provide valuable data driven insight to an organization helping guide business decisions in a data science, data analyst, or related role after college. Below, I provide summaries of the project's I have been working on over the past few month and some visuals from each.
-
+My personal interests include nature and the outdoors, sports (MLB, NBA, and skateboarding) and environmental issues and it's been extremely fascinating to explore questions related to these interests through a data lens. Since this past spring, I have been hooked on using Python, visualization tools, and machine learning to explore questions that fascinate me. My goal is to apply my curiosity and passion for analytics to help provide valuable data driven insight to an organization helping guide business decisions in a data science, data analyst, or related role after graduating from college in June 2023. Below, I provide summaries of the project's I have been working on over the past year and some relevant visuals.
 
 1. California Wildfire Forecaster
+
+Received a grant from Santa Clara University to work on a summer data science research project with Dr. Smita Ghosh in which I perform an in-depth analysis on wildfires in the state of California since the year 2000 with the goal of predicting high risk areas within the state with ML models. Queried a government SQLite database containing information on millions of U.S. Wildfires to extract data for over 100,000 California forest fires since the year 2000
+
+Starting with a smaller kaggle dataset containing recent california wildfire data 
+
+Cleaned both datasets and 
+
+Got weather data from 
+
+Mapped each fire 
+
+Elevation
+
+
+
+Experimented with both multi-class classification algorithms (such as KNN, SVM, Naive Bayes, Gradient Boosting, Decision Tree, Random Forest, and Deep Neural Networks) to classify past fires by size (Small, Medium, or Large) and regression techniques (such as multi-linear, ridge, lasso, decision tree, and neural network regressions) to predict acres burned.
+
+
+
+I use SQL, Python libraries such (Pandas, Matplotlib, Seaborn, Scikit-learn), and machine learning classification techniques (SVM, KNN, Decision Trees, Random Forest, and Neural Networks) to predict wildfire risk and affected areas in the state of California. You can follow my process and steps such as data cleaning, preprocessing, visualization, and model building using the GitHub link below.
+
 
 
 Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression, Requests, Scikit-Learn, Seaborn, TensorFlow), Tableau
@@ -19,7 +39,7 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 
 2. Major League Baseball Player Salary Prediction
 
-Personal project in which I explore player stats with the goal of building models to predict player worth (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position player hitting stats, in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques. Utilized techniques such as cross validation and tuning of model parameters with grid search.
+Personal project in which I explore player stats with the goal of building models to predict player salary (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position player hitting stats, in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques. Utilized techniques such as cross validation and tuning of model parameters with grid search.
 
 ![salary vs age](https://user-images.githubusercontent.com/81653555/183914933-a449e935-93e6-4801-a2ec-2cc8792291e0.JPG)
 ![Salary](https://user-images.githubusercontent.com/81653555/183914974-ee6d54e1-036c-4259-8dd4-f381e4abbb7e.JPG)
@@ -33,9 +53,9 @@ Personal project in which I explore player stats with the goal of building model
 Technologies used: Python (Matplotlib, Pandas, Scikit-Learn, Seaborn, TensorFlow)
 
 
-3. Into the Wild Trips Analysis
+3. Into the Wild Trips Yearly Review and Engagement Analysis
 
-Ongoing project for my role within the student outdoors organization as data analyst. Perform data entry, cleaning, and visualization to create yearly trip reports and  analysis for Santa Clara University's student run outdoors organization, Into the Wild. For this role, using data that I collected and entered, I create visualizations and utilize other techniques to explore our organization's trip sales and factors preventing trips filling for both day hikes and overnight camping trips during the past school year. In addition to crafting visualizations and programming to answer questions regarding student engagement with the organization, I also improved the organizations data collection by creating new google forms so that we can efficiently collect trip and participant going forward. The questions I explore in this position include but are not limited to the following:
+Ongoing project for my role within the student outdoors organization as data analyst. Perform data entry, cleaning, and visualization to create yearly trip reports and  analysis for Santa Clara University's student run outdoors organization, Into the Wild. For this role, using data that I collected and entered, I create visualizations and utilize other techniques to explore our organization's trip sales and factors preventing trips filling for both day hikes and overnight camping trips during the past school year. In addition to crafting Tableau visualizations and programming to answer questions regarding student engagement with the organization, I also improved the organizations data collection by creating new google forms so that we can efficiently collect trip and participant going forward. The questions I explore in this position include but are not limited to the following:
 
 1. What are the most important factors that affect trip sign ups for both day hikes and overnights?
 2. Are Friday overnights more popular/likely to fill than Saturday overnights?
