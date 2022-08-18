@@ -1,5 +1,15 @@
 # Michael-Nocerino-Data-Science-Portfolio
 
+
+About Me:
+My name is Michael Nocerino, and I am a rising senior at Santa Clara University in Northern California majoring in math (data science emphasis) and minoring in computer science. I have an analytical background with strong exposure to probability and statistics, discrete math, programming in C++ and Python, data mining, visualization, and supervised machine learning from the program at SCU thus far. From self-learning in my free time, I have picked up SQL, Tableau, and the fundamentals of deep learning and have developed these skills through a variety of data science projects. My personal interests include the outdoors, sports, and environmental issues and it's been extremely fascinating to explore these through 
+
+Throughout the 
+
+
+Below, I provide summaries of the project's I have been working on over the past few month and some visuals from each.
+
+
 1. California Wildfire Forecaster
 
 
@@ -8,7 +18,7 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 
 2. Major League Baseball Player Salary Prediction
 
-Personal project in which I explore player stats with the goal of building models to predict player worth (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position players (hitting stats), in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques. Utilized techniques such as recursive feature elimination, cross validation, hyper tuning of model parameters with grid search, and data normalization.
+Personal project in which I explore player stats with the goal of building models to predict player worth (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position player hitting stats, in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques. Utilized techniques such as cross validation and tuning of model parameters with grid search.
 
 ![salary vs age](https://user-images.githubusercontent.com/81653555/183914933-a449e935-93e6-4801-a2ec-2cc8792291e0.JPG)
 ![Salary](https://user-images.githubusercontent.com/81653555/183914974-ee6d54e1-036c-4259-8dd4-f381e4abbb7e.JPG)
@@ -20,9 +30,6 @@ Personal project in which I explore player stats with the goal of building model
 
 
 Technologies used: Python (Matplotlib, Pandas, Scikit-Learn, Seaborn, TensorFlow)
-
-
-
 
 
 3. Into the Wild Trips Analysis
@@ -64,7 +71,7 @@ Overnight Trips (2021-2022 School Year) Tableau Visuals:
 
 4. Winner's Circle (Board Game) Strategy Analysis
 
-The goal of this project was to determine the best horses to bet on and devise a stratgey for the board game Winner's Circle. I entered all of the horse cards in the game into a csv with the length of each horses run depending on the dice roll. I wrote a program to simulate a round of Winner's Circle taking into account the rules and restrictions of the game, ran it 100,000 times to simulate the game, and calculated win percentages for every horse in the game. I then investigated whether the difference in win percentage between horses is statistically significant and what features correlate with a high win percentage. 
+The goal of this project was to determine the best horses to bet on and devise a stratgey for the board game Winner's Circle. I entered all of the horse cards in the game into a csv with the length of each horses run depending on the dice roll. I wrote a program to simulate a round of Winner's Circle taking into account the rules and restrictions of the game, ran it 100,000 times, and calculated win percentages for every horse. I then investigated whether the difference in win percentage between horses is statistically significant and what features correlate with a high win percentage. 
 
 Technologies Used: Python (Pandas, Seaborn)
 
@@ -74,7 +81,5 @@ Dataset of horses with run lengths for each dice roll (the dice sides are head, 
 The Eight Best Horses (with the Highest Winning Percentages) after the Simulation of 100,000 Games:
 ![Top horses](https://user-images.githubusercontent.com/81653555/183915854-873cc95d-707c-4339-9a14-9009a792bab7.JPG)
 
-
-5. Spotify Song Popularity Classifier
 
 
