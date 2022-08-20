@@ -12,6 +12,9 @@ My personal interests include nature and the outdoors, sports (MLB, NBA, and ska
 
 Received a grant from Santa Clara University to work on a data science research project this summer with Dr. Smita Ghosh in which I perform an in-depth analysis on wildfires in the state of California since the year 2000 with the goal of predicting high risk areas within the state with ML models. Queried a government SQLite database containing information on millions of U.S. Wildfires to extract data for over 100,000 California forest fires since the year 2000. Performed cleaning and modifications on this dataset in addition to another smaller Kaggle dataset containing recent california wildfire data to ensure that both datasets contained consistent features and formatting. From there, I was able to request monthly weather data for the past 20 years in different areas of California from the National Oceanic and Atmospheric Administration (NOAA) that I would eventually add on to each fire in the two datasets. This included features such as average wind, min and max temperatures during each month, days exceeding 90 degrees within the month, percepitation statistics and was able to map each fire to its closest NOAA weather station within California (utilized a function that finds the NOAA station with the shortest haversine distance -distance calculated between locations given coordinates- from the fire) and the weather there during the month and the year of the fire. In addition to this, I gathered March snow related data (total snowpack, snow water content, snow density) from 20 mountain peaks of the most relevant river basins in the Sierra Nevada (mountainous area of California) from the California Department of Water Resources, restructured, and cleaned the data in Pandas so that it could be added on to each fire that occured in a county that receives snow (mapped to each station once again using shortest haversine distance). I engineered four additional features with the weather data I had gathered and the date-time library such as number of heatwaves in the two months before the fire and total percipitation during the rainy season before the fire. Finally, I utilized public geographical APIs to extract the elevation each fire occured at as well as the county for fires who were missing a value. Having cleaned and prepped the two datasets, I then went on to experiment with building machine learning models, taking both classification and regression approaches. Experimented with multi-class classification algorithms (such as KNN, SVM, Naive Bayes, Gradient Boosting, Decision Tree, Random Forest, and Deep Neural Networks) to try to classify past fires by size (Small, Medium, or Large) so that this model could be used to also predict areas that are at high risk for large forest fires. While the multi-class classifiers struggled to perform well, I also experimented with regression techniques (such as multi-linear, ridge, lasso, decision tree, and neural network regressions) to predict acres burned, which I found to be more effective. I am currently in the process of experimentation with different algorithms and hyperparameters to tune the best multi-class classification and regression models as I finish up my project this month.
 
+
+Tableau Sample Graphics: 
+
 ![Wildfire tableau](https://user-images.githubusercontent.com/81653555/185754770-53419d59-2baa-4692-8388-d0db30ee0ba1.JPG)
 
 ![2018](https://user-images.githubusercontent.com/81653555/185754850-a59e0032-f082-491c-bcc4-83061b03cf78.JPG)
@@ -24,11 +27,16 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 
 Personal project in which I explore player stats with the goal of building models to predict player salary (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position player hitting stats, in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques. Utilized techniques such as cross validation and tuning of model parameters with GridSearch. In the end, I was able to produce regression models for both position players and pitchers with mean absolute errors under 3 million USD (player salaries in the dataset ranged from 140k to 35 million USD). I am currently working to build specific seperate models for starting pitchers and relief pitchers to lower MAE as much as possible.
 
+Salary vs. Age for Position Players:
 ![salary vs age](https://user-images.githubusercontent.com/81653555/183914933-a449e935-93e6-4801-a2ec-2cc8792291e0.JPG)
+
+Hits vs. Games vs. Salary for Position Players:
 ![salary2](https://user-images.githubusercontent.com/81653555/185754950-e19d6d71-bd40-47e7-a36e-0d59063b4cb1.JPG)
 
+Player Salary Distribution by Position and Batting Stance:
 ![MLB guitar](https://user-images.githubusercontent.com/81653555/183914333-947a77ec-bd28-44bd-8ba9-71fb7c973002.JPG)
 
+Training Neural Network to Predict Position Player Salary:
 ![Capture](https://user-images.githubusercontent.com/81653555/184680718-e63126d7-98be-47c8-9352-097299da4c4a.JPG)
 
 
@@ -54,11 +62,9 @@ Technologies used: Python (Pandas, Scikit-Learn, Seaborn), Tableau, PowerPoint
 
 
 
-
+Overnight Trips (2021-2022 School Year) Tableau Visuals:
 
 ![ITW pricing](https://user-images.githubusercontent.com/81653555/183909840-ccf350ed-28cf-4363-9750-17e03fa7e1d5.JPG)
-
-Overnight Trips (2021-2022 School Year) Tableau Visuals:
 
 ![Overnights_Overview1](https://user-images.githubusercontent.com/81653555/183911802-d06aa820-c1ef-41df-9761-e53cff58b948.JPG)
 
