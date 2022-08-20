@@ -48,8 +48,6 @@ Ongoing project for my role within the student outdoors organization as data ana
 Technologies used: Python (Pandas, Scikit-Learn, Seaborn), Tableau, PowerPoint
 
 
-![Day Hike](https://user-images.githubusercontent.com/81653555/183910569-309c8e54-d674-4868-8f0d-5222602c0725.JPG)
-
 
 
 
