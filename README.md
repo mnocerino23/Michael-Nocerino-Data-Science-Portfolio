@@ -52,7 +52,6 @@ Technologies used: Python (Pandas, Scikit-Learn, Seaborn), Tableau, PowerPoint
 
 
 
-![ITW Overnights](https://user-images.githubusercontent.com/81653555/183909835-dc41becb-4306-47c7-a932-f7068390bb2f.JPG)
 
 
 
@@ -68,6 +67,8 @@ Overnight Trips (2021-2022 School Year) Tableau Visuals:
 
 
 ![Quarterly signup](https://user-images.githubusercontent.com/81653555/183912019-c2e073be-4a85-4e4f-88e0-f4156d9b1423.JPG)
+
+![ITW Overnights](https://user-images.githubusercontent.com/81653555/185755871-ecee4642-e88a-4bd8-a8e0-cee017f0a224.JPG)
 
 
 4. Winner's Circle (Board Game) Strategy Analysis
