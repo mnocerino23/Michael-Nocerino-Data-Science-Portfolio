@@ -28,15 +28,22 @@ Technologies used: SQL (SQLite), Python (Matplotlib, Pandas, Regular Expression,
 Personal project in which I explore player stats with the goal of building models to predict player salary (in millions) for pitchers and hitters in Major League Baseball. Cleaned two datasets, one with pitcher stats and one with position player hitting stats, in Pandas and created visualizations in Seaborn to understand the distributions of various stats throughout the league in addition to the features that correlate with high salary. I trained machine learning models with Scikit-Learn and TensorFlow to predict player salary for position players, pitchers, starting pitchers, and relief pitchers utilizing multivariate linear, ridge, lasso, decision tree and neural network regression techniques. Utilized techniques such as cross validation and tuning of model parameters with GridSearch. In the end, I was able to produce regression models for both position players and pitchers with mean absolute errors under 3 million USD (player salaries in the dataset ranged from 140k to 35 million USD). I am currently working to build specific seperate models for starting pitchers and relief pitchers to lower MAE as much as possible.
 
 Salary vs. Age for Position Players:
+
+
 ![salary vs age](https://user-images.githubusercontent.com/81653555/183914933-a449e935-93e6-4801-a2ec-2cc8792291e0.JPG)
 
-Hits vs. Games vs. Salary for Position Players:
+Hits vs. Games with Salary in Color for Position Players:
+
+
+
 ![salary2](https://user-images.githubusercontent.com/81653555/185754950-e19d6d71-bd40-47e7-a36e-0d59063b4cb1.JPG)
 
 Player Salary Distribution by Position and Batting Stance:
 ![MLB guitar](https://user-images.githubusercontent.com/81653555/183914333-947a77ec-bd28-44bd-8ba9-71fb7c973002.JPG)
 
 Training Neural Network to Predict Position Player Salary:
+
+
 ![Capture](https://user-images.githubusercontent.com/81653555/184680718-e63126d7-98be-47c8-9352-097299da4c4a.JPG)
 
 
@@ -79,7 +86,7 @@ Overnight Trips (2021-2022 School Year) Tableau Visuals:
 
 4. Winner's Circle (Board Game) Strategy Analysis
 
-The goal of this project was to determine the best horses to bet on and devise a stratgey for the board game Winner's Circle. I entered all of the horse cards in the game into a csv with the length of each horses run depending on the dice roll. I wrote a program to simulate a round of Winner's Circle taking into account the rules and restrictions of the game, ran it 100,000 times, and calculated win percentages for every horse. I then investigated whether the difference in win percentage between horses is statistically significant and what features correlate with a high win percentage. 
+The goal of this project was to determine the best horses to bet on and devise a stratgey for the board game Winner's Circle. I entered all of the horse cards in the game into a csv with the length of each horses run depending on the dice roll. I wrote a program to simulate a round of Winner's Circle taking into account the rules and restrictions of the game, ran it 100,000 times, and calculated win percentages for every horse. I then investigated whether there is a large difference in win percentage between horses and what features correlate with a high win percentage. 
 
 Technologies Used: Python (Pandas, Seaborn)
 
@@ -87,6 +94,8 @@ Dataset of horses with run lengths for each dice roll (the dice sides are head, 
 ![Winners circle 2](https://user-images.githubusercontent.com/81653555/183908365-f94bf29d-2a6b-4a1c-b5c3-e336a55014c0.JPG)
 
 The Eight Best Horses (with the Highest Winning Percentages) after the Simulation of 100,000 Games:
+
+
 ![Top horses](https://user-images.githubusercontent.com/81653555/183915854-873cc95d-707c-4339-9a14-9009a792bab7.JPG)
 
 
