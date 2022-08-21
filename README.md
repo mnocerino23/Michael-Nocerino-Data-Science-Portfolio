@@ -86,7 +86,7 @@ Overnight Trips (2021-2022 School Year) Tableau Visuals:
 
 4. Winner's Circle (Board Game) Strategy Analysis
 
-The goal of this project was to determine the best horses to bet on and devise a stratgey for the board game Winner's Circle. I entered all of the horse cards in the game into a csv with the length of each horses run depending on the dice roll. I wrote a program to simulate a round of Winner's Circle taking into account the rules and restrictions of the game, ran it 100,000 times, and calculated win percentages for every horse. I then investigated whether there is a large difference in win percentage between horses and what features correlate with a high win percentage. 
+The goal of this project was to determine the best horses to bet on and devise a strategy for the board game Winner's Circle. I entered all of the horse cards in the game into a csv with the length of each horses run depending on the dice roll. I wrote a program to simulate a round of Winner's Circle taking into account the rules and restrictions of the game, ran it 100,000 times, and calculated win percentages for every horse. I then investigated whether there is a large difference in win percentage between horses and what features correlate with a high win percentage. 
 
 Technologies Used: Python (Pandas, Seaborn)
 
